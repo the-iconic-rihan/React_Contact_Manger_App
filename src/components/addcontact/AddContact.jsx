@@ -32,7 +32,7 @@ class AddContact extends React.Component {
           <div className="field">
             <label>Email</label>
             <input
-              type="text"
+              type="email"
               name="email"
               placeholder="username@gmail.com"
               value={this.state.email}
